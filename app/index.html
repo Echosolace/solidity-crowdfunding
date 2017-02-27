@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Decentralised Crowdfunding</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link href="./app.css" rel='stylesheet' type='text/css'>
+	<script src="./app.js"></script>
+</head>
+<body>
+	<h1>Decentralised Crowdfunding</h1>
+	<div id="menu">
+		<ul>
+			<li id="addProjectToggle">Create project</li>
+		</ul>
+	</div>
+	<div id="addProjectDiv"><form id="addProjectForm">
+		<table>
+			<tr><td><label>Name: </label></td><td colspan="2"><input style="width: 150px;" name="name" id="addProjectName" type="text" /></td></tr>
+			<tr><td><label>Amount to raise: </label></td><td colspan="2"><input style="width: 150px;" name="amount" id="addProjectAmount" type="text" /></td></tr>
+			<tr><td><label>Deadline: </label></td><td><input style="width: 71px;" name="deadline" id="addProjectDeadline" type="text" /></td><td><input style="width: 71px;" name="deadlineTime" id="addProjectDeadlineTime" type="text" /></td></tr>
+			<tr><td><button type="submit">Create project</button></td></tr>
+		</table>
+	</form></div>
+	<div id="projects">
+		<h3>Projects</h3>
+	</div>
+</body>
+</html>
